@@ -4,6 +4,22 @@ body {
   margin: 0;
 }
 
+.header-container{
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text{
+  font-size: 1.1rem;
+  font-family: 'Lobster';
+}
+
 .main-box {
   border: 1px solid, black;
   height: 550px;
@@ -12,6 +28,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
+
 }
 
 .title {
@@ -66,6 +84,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 }
 
 ::-webkit-scrollbar {
