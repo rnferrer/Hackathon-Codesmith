@@ -1,19 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "",
+  "name": "Anime Recommender",
   "description": "",
-  "version": "",
+  "permissions":["tabs"],
+  "version": "1.0",
   "icons": {
-    "16": "",
-    "48": "",
-    "128": ""
+    "24": "anya24.png",
+    "118": "anya118.png"
   },
-  "page_action": {
-    "default_icon":{
-      "16": "",
-      "48": "",
-      "128": ""
+    
+    "action": {
+      "default_title": "Get a random anime recommendation based off a given genre!",
+      "default_popup": "index.html"
     }
-  },
-  "content_scripts": [{}]
+
 }
