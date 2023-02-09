@@ -5,8 +5,8 @@
   "permissions":["tabs"],
   "version": "1.0",
   "icons": {
-    "24": "/images/anya24.png",
-    "118": "/images/anya118.png"
+    "24": "images/anya24.png",
+    "118": "images/anya118.png"
   },
     
     "action": {

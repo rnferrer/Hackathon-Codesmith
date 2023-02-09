@@ -9,7 +9,7 @@ document.querySelector("#randomizer-button").addEventListener("click", () => {
       const imageURL = randomAnime["images"]["jpg"]["image_url"];
       const animeTitle = randomAnime["titles"][0]["title"];
       const score = randomAnime["score"];
-      const trailer = randomAnime["trailer"]["youtube_id"];
+      const trailer = randomAnime["trailer"]["embed_url"];
 
       let genres = "";
       randomAnime["genres"].forEach((genre) => {
@@ -26,6 +26,8 @@ document.querySelector("#randomizer-button").addEventListener("click", () => {
       document.querySelector(".img").href = animeURL;
       document.querySelector(".synopsis").textContent = synopsis;
       document.querySelector(".main-box").style.display = "flex";
+      document.querySelector('iframe').src = trailer;
+      console.log(document.querySelector('iframe').src);
     });
 });
 
