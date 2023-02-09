@@ -1,5 +1,6 @@
 document.querySelector("#randomizer-button").addEventListener("click", () => {
   const randomPage = Math.floor(Math.random() * 25);
+  console.log('click')
   fetch(`https://api.jikan.moe/v4/top/anime?page=${randomPage}`)
     .then((data) => data.json())
     .then(async (data) => {
@@ -10,6 +11,8 @@ document.querySelector("#randomizer-button").addEventListener("click", () => {
       const animeTitle = randomAnime["titles"][0]["title"];
       const score = randomAnime["score"];
       const trailer = randomAnime["trailer"]["embed_url"];
+
+      console.log(animeTitle)
 
       let genres = "";
       randomAnime["genres"].forEach((genre) => {
@@ -26,6 +29,7 @@ document.querySelector("#randomizer-button").addEventListener("click", () => {
       document.querySelector(".img").href = animeURL;
       document.querySelector(".synopsis").textContent = synopsis;
       document.querySelector(".main-box").style.display = "flex";
+      document.querySelector(".button-container").style.marginTop = '0'
       document.querySelector('iframe').src = trailer;
       console.log(document.querySelector('iframe').src);
     });
