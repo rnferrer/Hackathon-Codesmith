@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Anime Recommender",
-  "description": "",
+  "description": "Just finished your latest anime? Out of animes to watch? Click on Anya and see what she recommends!",
   "permissions":["tabs"],
   "version": "1.0",
   "icons": {
-    "24": "anya24.png",
-    "118": "anya118.png"
+    "24": "/images/anya24.png",
+    "118": "/images/anya118.png"
   },
     
     "action": {

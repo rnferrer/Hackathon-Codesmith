@@ -1,6 +1,6 @@
 body {
   background-color: #333333;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   margin: 0;
 }
 
@@ -14,22 +14,23 @@ body {
   justify-content: center;
 }
 
-.title{
+.title {
   margin-bottom: 0.5rem;
   text-align: center;
 }
 
-.genres, .score{
-  color:white;
+.genres,
+.score {
+  color: white;
   text-align: center;
 }
 
-.score{
-  margin-bottom: .5rem;
+.score {
+  margin-bottom: 0.5rem;
 }
 
-.genres{
-  margin-top: .3rem;
+.genres {
+  margin-top: 0.3rem;
 }
 
 .synopsis {
