@@ -1,0 +1,73 @@
+body {
+  background-color: #333333;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0;
+}
+
+.main-box {
+  border: 1px solid, black;
+  height: 550px;
+  width: 400px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.genres, .score{
+  color:white;
+  text-align: center;
+}
+
+.score{
+  margin-bottom: .5rem;
+}
+
+.genres{
+  margin-top: .3rem;
+}
+
+.synopsis {
+  overflow-y: scroll;
+  height: 120px;
+  width: 90%;
+  color: white;
+  margin: 0.5rem 0;
+}
+
+#randomizer-button {
+  background-color: transparent;
+  height: fit-content;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+#randomizer-button:hover {
+  border: 2px solid #eca1ac;
+}
+
+.anya {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  color: #eca1ac;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #333333;
+}
